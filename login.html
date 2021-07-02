@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Sigesca</title>
+</head>
+
+<body id="fondo">
+
+    <div>
+        <nav class="navbar navbar-light sombra"
+            style="background: linear-gradient(to bottom right, rgb(6, 88, 47), rgb(10, 155, 54));">
+            <img src="imagenes/logo.png" width="180" height="60" style="border-radius: 15px;">
+
+            <span class="navbar-brand mb-0 justify-content-center h1 text-white titulo"> ¡BIENVENIDOS AL SISTEMA DE
+                CAPACITACIONES DE ADRA!</span>
+        </nav>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6">
+                <div class="container logincaja">
+                    <div id="effect" class="login caja ui-widget-content ui-corner-all" style="text-align: center;">
+                        <img style="width: 150px; height: 150px; margin-bottom: 10px;" src="imagenes/Perfil.png" alt="">
+                        
+                        <div class="input-group mb-2 espaciado sombra-input">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            </div>
+                            <input type="text" class="form-control" id="username" placeholder="Usuario">
+                        </div>
+
+                        <div class="input-group mb-2 espaciado sombra-input">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></div>
+                            </div>
+                            <input type="password" class="form-control" id="password" placeholder="Contraseña">
+                        </div>
+                        <div class="form-group espaciado">
+                            <button id="boton" class="btn btn-warning btn-md btn-block sombra">Ingresar</button>
+                        </div>
+
+                        <a href="" class="text-white">Olvidaste tu contraseña?</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container">
+                    <div id="carouselExampleInterval" class="carousel slide margen-right margen-top sombra"
+                        data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="2500">
+                                <img src="/imagenes/imagen1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2500">
+                                <img src="/imagenes/imagen2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2500">
+                                <img src="/imagenes/imagen3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2500">
+                                <img src="/imagenes/imagen4.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script_login.js"></script>
+</body>
+
+</html>
