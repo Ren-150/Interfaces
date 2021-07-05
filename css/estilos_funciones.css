@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+}
+
+.icon-right{
+    margin-right: 10px;
+}
+
+.boton-bar{
+    color: black;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(70, 67, 67);
+    height: 15%;
+}
+
+.menubar{
+    font-size: 18px;
+    background-color: rgb(218, 213, 213);
+    width: 100%;
+    height: 100%;
+
+}
+
+.main2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.extender{
+    height: 100%;
+}
+
