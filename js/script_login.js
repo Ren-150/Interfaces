@@ -10,6 +10,7 @@ $("#boton").click(function (e) {
         sessionStorage.setItem('user',user);
         window.location = 'main.html';
     } else {
+        alert("Nombre o contraseña incorrecta")
         window.location = 'login.html';
     }
 
